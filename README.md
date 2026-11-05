@@ -1,17 +1,24 @@
-# 💻 Assignment Boilerplate
+# 💻 Feature Cards
 
-A starting point for assignment and exercise repos. It includes submission instructions, editor and Git configuration, and a pull request template so every assignment works the same way.
+Starter files for the Feature Cards coding exercise in Web Design 1. You will build a set of
+**homepage feature cards** and a **call-to-action section** with HTML and CSS — using CSS Grid
+for the card layout, Flexbox to line up icons and headings, and a media query for small
+screens — and publish it with GitHub Pages.
+
+This repo also includes the editor and Git configuration and the pull request template that every
+assignment in this course uses.
 
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` folder are
-> setup files that keep assignments consistent. Leave them alone.
+> setup files that keep assignments consistent. Leave them alone. `index.html`, `reset.css`,
+> and `cards.css` are your starter files — edit them in place.
 
 ## 📋 Assignment Requirements
 
 > [!IMPORTANT]
 > **Start here: [read ASSIGNMENT.md →](ASSIGNMENT.md)**
 
-It has the requirements, grading criteria, and due date. Read it before you start, and check it again before you submit. This `README` only covers how to publish and submit your work.
+It has the overview, a guide to the companion videos in Canvas, the grading rubric, and a final checklist. Read it before you start, and check it again before you submit. This `README` only covers how to publish and submit your work.
 
 ## 🏁 Getting Started
 
@@ -21,7 +28,7 @@ It has the requirements, grading criteria, and due date. Read it before you star
 
      <img src=".github/images/use-this-template.png" alt="The Use this template button at the top right of the repo page" width="600">
    - Set **Owner** to your GitHub account.
-   - Give it a **Repository name** — use the assignment name, like `assignment-1`.
+   - Give it a **Repository name** — use the assignment name, like `feature-cards`.
 
      <img src=".github/images/create-repo-name.png" alt="The Create a new repository form with Owner set to your username and the Repository name filled in" width="600">
    - Set visibility to **Public** (GitHub Pages needs a public repo on a free account).
@@ -44,14 +51,16 @@ It has the requirements, grading criteria, and due date. Read it before you star
 ## 📂 Where Your Files Go
 
 Create your files in the **root folder** of this repo — the same folder as this README.
-GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404. Group your assets into subfolders:
+GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404. Your files should look like this:
 
 ```
 index.html
-css/style.css
-js/script.js
-images/photo.jpg
+reset.css
+cards.css
 ```
+
+The starter files are already in the root folder, so `<link rel="stylesheet" href="cards.css">`
+just works. Keep them there and don't rename them.
 
 ## 🤖 AI Policy
 
